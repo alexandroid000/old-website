@@ -1,0 +1,67 @@
+/* color scheme and fonts */
+/* ---------------------- */
+
+#navigation {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 200px;
+	height: 120%;
+	background-color: #a49aab;
+	padding: 5px 4px;
+    font-size: 125%;
+    font-height: 135%;
+    font-weight: bold;
+}
+
+#navigation ul {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+
+/* link color in nav bar */
+#navigation li a {
+    display: block;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navigation li a:hover {
+    background-color: #111;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    padding-left: 240px;
+}
+
+/* general formatting */
+/* ------------------ */
+
+p {
+    margin-top: 0px;
+    width: 610px;
+}
+
+img {
+    border: 0px;
+    margin: 0px;
+}
+
+#navigation li a {
+}
+
+.figure {
+    display: block;
+    height 480px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
