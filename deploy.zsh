@@ -4,9 +4,10 @@ stack exec site clean
 stack exec site build
 
 git fetch --all
-git checkout -b master --track origin/master
 
-echo $?
+echo "MOVING TO MASTER BRANCH"
+
+git checkout -b master --track origin/master
 
 if [ $? = 0 ]; then
 
@@ -15,6 +16,7 @@ if [ $? = 0 ]; then
     git commit -m "publish"
     git push origin master:master
 
+    echo "MOVING BACK TO DEVELOP"
     git checkout develop
     git branch -D master
     git stash pop
