@@ -10,13 +10,7 @@ echo $?
 
 if [ $? = 0 ]; then
 
-    rsync -a --filter='P _site/'      \
-         --filter='P _cache/'     \
-         --filter='P .git/'       \
-         --filter='P .gitignore'  \
-         --filter='P .stack-work' \
-         --delete-excluded        \
-         _site/ .
+    cp -a _site/. .
     git add -A
     git commit -m "publish"
     git push origin master:master
