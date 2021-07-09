@@ -2,21 +2,19 @@
 title: Home
 ...
 
-
 <img src="images/headshot.jpg" height="200" alt="A photo of Alli Nilles" style="float: right; margin: 4px 10px 4px 4px; border: 1px solid #000000;"> 
 
 I completed my PhD in Computer Science at the University of Illinois at
-Urbana-Champaign in Fall 2020 with [Dr. Steven M. LaValle](http://lavalle.pl/). I am now a
+Urbana-Champaign in Fall 2020, advised by [Dr. Steven M. LaValle](http://lavalle.pl/). I am now a
 Postdoc in Dr. Kirstin Petersen's [Collective Embodied Intelligence Lab](https://cei.ece.cornell.edu/)
  in the Electrical and Computer Engineering Department at Cornell University.
- I have a B.S. in Engineering Physics from the Colorado School of Mines.
 
-**Research Interests:** My thesis was on algorithms and data structures for 
+**Research Interests:** Design of algorithms and data structures for 
 minimal-yet-robust motion and feedback planning for mobile
-robots. Specifically, I worked with a broad class of robots that have
-structured interactions with their environment, such as Roombas that bump into
-walls and furniture or micro-robots that swim blindly until they reach a barrier
-or another robot.
+robots. In my Ph.D., I focused on robots that have
+structured interactions with their environment. Examples include robot vacuums that bump into
+walls to guarantee they cover a space without requiring a map; or micro-robots that swim blindly 
+until they collide with objects, enabling micro-scale construction.
 
 My approach involves making coarse characterizations of the geometry and dynamics of 
 robot trajectories. By establishing equivalence classes over the
@@ -30,8 +28,7 @@ engineer robust high-level behaviors such as navigating or patrolling a space,
 or even object manipulation or self-assembly.
 
 [My CV is here](images/NillesCV.pdf). You can see some of my current projects at
-[my github](https://github.com/alexandroid000) and [on my project overview
-page](projects.html).
+[my github](https://github.com/alexandroid000).
 
 ### News
 
