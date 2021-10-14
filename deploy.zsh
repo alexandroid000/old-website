@@ -11,7 +11,7 @@ git checkout -b master --track origin/master
 
 if [ $? = 0 ]; then
 
-    cp -a _site/. .
+    #cp -a docs/. .
     git add -A
     git commit -m "publish"
     git push origin master:master

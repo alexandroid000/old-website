@@ -4,7 +4,7 @@ title: Home
 
 <img src="images/headshot.jpg" height="200" alt="A photo of Alli Nilles" style="float: right; margin: 4px 10px 4px 4px; border: 1px solid #000000;"> 
 
-I completed my PhD in Computer Science at the University of Illinois at
+I completed my Ph.D. in Computer Science at the University of Illinois at
 Urbana-Champaign in Fall 2020, advised by [Dr. Steven M. LaValle](http://lavalle.pl/). I am now a
 Postdoc in Dr. Kirstin Petersen's [Collective Embodied Intelligence Lab](https://cei.ece.cornell.edu/)
  in the Electrical and Computer Engineering Department at Cornell University.
