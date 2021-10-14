@@ -6,7 +6,7 @@ stack exec myblog build
 
 if [ $? = 0 ]; then
 
-    #cp -a docs/. .
+    cp CNAME docs/
     git add -A
     git commit -m "publish"
     git push origin master:master
