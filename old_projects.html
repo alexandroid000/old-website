@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alli N - Old Projects</title>
+        <link rel="stylesheet" type="text/css" href="./css/template-css.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                <a href="./">Dr. Alexandra (Alli) Nilles</a>
+            </div>
+            <div id="navigation">
+                <a href="./index.html">Home</a>
+                <a href="./publications.html">Publications</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div id="content">
+            <h1>Old Projects</h1>
+            <h2 id="the-dynamics-of-bouncing-robots">The Dynamics of Bouncing Robots</h2>
+<p><img src="images/cycles.gif" class="center" style="width:6cm" /><br />
+</p>
+<p>Many robots, such as vacuuming robots, have a default behavior of moving forward in a straight line until they encounter an obstacle. We call these <strong>bouncing robots</strong>, and we can define different “bounce rules” for what the robot should do when it encounters a boundary. Then, we can analyze the behavior of different bounce rules in polygonal environments and we are working toward synthesizing strategies of bounce rules for different tasks such as navigation and patrolling.</p>
+<p>This work has connections to dynamical billiards: to make a bouncing robot explore a space, you want a bouncing law that covers the polygon well. To make a bouncing robot localize, you want the robot to become “trapped” in a small region of phase space (the “attractor”). I have taken an “experimental mathematics” approach to this work, building a <a href="https://github.com/alexandroid000/bounce">simulator</a> and using it to explore and verify the dynamical systems analysis.</p>
+<p>This project has had papers at <a href="images/NilBecLav_IROS_17.pdf">IROS 2017</a> and <a href="images/wafr_paper.pdf">WAFR 2018</a>.</p>
+<h2 id="improv-a-high-level-language-for-live-coding-robot-motion">Improv: a High-Level Language for Live-Coding Robot Motion</h2>
+<p><img src="images/improv_demo.gif" class="center" style="width:10cm" /><br />
+</p>
+<p>Started as a project in <a href="http://radlab.mechse.illinois.edu/">Amy LaViers’</a> class, I am developing a platform-independent domain-specific language (DSL) using Haskell. This language uses choregraphic technologies (for example, the difference between “reversing” a movement sequence and “retrograding”) to improve readability and writeability for prototyping robotic movement. The user describes movements in a high-level language which is then translated to ROS messages and sent to a simulator or robot to see the effects of the commands in real time. The goal is to enable <a href="https://toplap.org/about/">live coding</a> of robots, for practical everyday control of such robots as well as performance and educational applications.</p>
+<p>The summary paper of the class project can be found <a href="images/improv_paper_17.pdf">here</a>, and we had a <a href="images/NilGladMattLaV_18.pdf">paper at MOCO 2018</a>.</p>
+<p>The language is still under development; <a href="https://github.com/alexandroid000/improv">code and documentation can be found here</a>. Please let us know if you try it out!</p>
+<h2 id="self-assembly-and-aggregate-robots">Self-Assembly and Aggregate Robots</h2>
+<p><img src="images/weaselballs_movement.gif" class="center" style="width:8cm" /><br />
+</p>
+<p>Our lab has a long history of working with <a href="https://www.youtube.com/watch?v=sDg4frI4rcw">weaselballs</a>, a “model organism-bot” of an uncontrollable robot. I am leading a team of undergraduates who are building cases that allow the weaselballs to connect into assemblies. We are analyzing the dynamics of these assemblies experimentally, in the lab and in simulation. Check out our poster <a href="images/research_fair_Jan_2018.pdf">(high-res version here)</a>:</p>
+<p><img src="images/research_fair_Jan_2018.jpg" class="center" style="width:16cm" /><br />
+</p>
+<p>Our long-term goal is to create minimal information-space based controllers which control the connections between agents so that the entire assembly acts like a ratchet or motor - converting the “thermal” energy of the weaselballs into useful linear or rotational motion. We are also interested in designing environments that control the bulk thermodynamic properties of the weaselballs, and creating analouges to “pressure” that would allow objects in the environment to be collectively manipulated and transported.</p>
+<p>There are applications from this work in micro- and nano-robotics, especially with the exciting new advances in <a href="https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.88.045006">active particles</a>.</p>
+<h2 id="automated-robot-design">Automated Robot Design</h2>
+<p>I am very interested in using tools from formal methods, such as model checking and synthesis, to help roboticists explore the space of robot designs. This can help us in several ways:</p>
+<ul>
+<li>automate the process of proving bounds on robots’ abilities (how do different combinations of sensors/actuators affect a robots ability to localize, navigate, or do some other task?)</li>
+<li>make creating new robots easier and more fun, especially for people who are not expert roboticists (hobbyists, small businesses, children, etc).</li>
+</ul>
+<p>This exciting new research area leverages advances from formal methods and from the fabrication (printable / foldable / modular robots) and design communities.</p>
+<p>To this end, I am a contributor to the <a href="http://robot-design.org">robot design game</a>, an informal (and fun!) way of exploring the trade-offs between robotic resources and capabilities. I am also helping organize the <a href="http://minimality.mit.edu">Workshop on Minimality and Trade-offs in Automated Robot Design</a> at RSS 2017.</p>
+<h2 id="self-assembly">Self-Assembly</h2>
+<p>I am interested in <a href="https://github.com/alexandroid000/gg">graph grammars and rewriting based approaches to modelling assembly</a>, especially in conjunction with machine learning and automating rewriting-based strategy generation. This project has stalled because the question of how to formulate specifications that are amenable to machine learning and rewriting is Very Hard.</p>
+<p>With Yuliy Baryshnikov, I have been working on a simple model of fetal morphogenesis (how does a developing embryo change from a sphere to a torus?). I have several simulations environments <a href="https://github.com/alexandroid000/morpho">here</a>. Yuliy is currently on sabbatical and thus I am shelving this project for now.</p>
+<h2 id="tracking-motion-of-rolling-robots">Tracking Motion of Rolling Robots</h2>
+<p><a href="https://github.com/alexandroid000/imu">This project</a> explores what can be reconstructed about the motion and environment of a rolling robot with an IMU fixed to the inside of its spherical surface. Projects like Sphero use IMUs fixed to an internal platform, whereas we’re tracking the rotation of the robot, essentially creating a “3D wheel encoder”.</p>
+<p>Documentation on my github includes a general guide to setting up a small, battery-powered IMU that logs to an SD card.</p>
+<p>Results from this project indicated that it is possible to get decent estimates of the distance and direction traveled by a rolling robot between collisions.</p>
+<h2 id="predicted-information-gain-and-exploratory-robots">Predicted Information Gain and Exploratory Robots</h2>
+<p>“Predicted Information Gain” is an exploratory learning algorithm developed by the Redwood Center for Computational Neuroscience. While working with <a href="http://csc.ucdavis.edu/~chaos/">Jim Crutchfield’s group</a> at UC Davis, I adapted this algorithm for small robots and analyzed their learned representations of the environment. I also worked on developing ways to include more memory in the algorithm to adapt to hidden environments. My paper on the project is <a href="images/NillesPIG.pdf">here</a>. From summer 2014.</p>
+<h2 id="partially-coherent-transport">Partially Coherent Transport</h2>
+<p>Recent discoveries have indicated that some photosynthetic structures are able to use vibrational modes in proteins to encourage semi-coherent transport of energy. This means that excitons are not collapsed down into one state, but remain in a superposition of states during transport, which is a faster and more efficient way to transport energy. My project involved modelling this process using the Hierarchical Equations of Motion, a reformulated approximation to the solution of the Schrodinger Equation. Using these models, my group and myself identified several physical characteristics for highly coherent systems. This was a senior design project, and research has been passed on to a new group and is ongoing. My poster that I presented on my work can be found <a href="images/NillesPoster.pdf">here</a>, and a more detailed overview that I wrote with my two research partners is <a href="images/senior-design-summary.pdf">here.</a> From academic year 2013-2014.</p>
+        </div>
+
+        <div id="footer">
+            Site generated by
+            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+        </div>
+    </body>
+</html>
