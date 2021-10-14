@@ -1,17 +1,13 @@
 git stash
-git checkout develop
-stack exec site clean
-stack exec site build
-
 git fetch --all
+git checkout master
+stack exec myblog clean
+stack exec myblog build
 
-echo "MOVING TO MASTER BRANCH"
-
-git checkout -b master --track origin/master
 
 if [ $? = 0 ]; then
 
-    cp -a _site/. .
+    #cp -a _site/. .
     git add -A
     git commit -m "publish"
     git push origin master:master
