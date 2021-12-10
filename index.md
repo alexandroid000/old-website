@@ -16,7 +16,7 @@ On the theory side, I'm interested in problems such as finding the
 minimum sensor information required to complete a task, or in minimum-complexity
 controllers. On the practical side, I'm interested in both making robots more
 sustainable (longer battery life, etc) and applying simple robots to solve
-data collection problems in ecology or agriculture.
+data collection problems in agriculture, ecology, etc.
 
 My Ph.D. was focused on motion planning for robots that have structured
 interactions with boundaries of their environment. Examples include robot
