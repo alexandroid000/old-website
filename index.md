@@ -10,13 +10,13 @@ Postdoc in Dr. Kirstin Petersen's [Collective Embodied Intelligence Lab](https:/
  in the Electrical and Computer Engineering Department at Cornell University.
 
 **Research Interests:** Design of algorithms and data structures for 
-robust motion and task planning for mobile robots, with a focus on
-*minimality*. I'm interested in minimality both theoretically and practically.
+robust motion and task planning of mobile robots, with a focus on
+*minimalism*. I'm interested in minimality both theoretically and practically.
 On the theory side, I'm interested in problems such as finding the
-minimum sensor information required to complete a task, or in minimum-complexity
+minimum sensor information required to complete a task, or computing minimum-complexity
 controllers. On the practical side, I'm interested in both making robots more
 sustainable (longer battery life, etc) and applying simple robots to solve
-data collection problems in agriculture, ecology, etc.
+problems in agriculture, ecology, etc.
 
 My Ph.D. was focused on motion planning for robots that have structured
 interactions with boundaries of their environment. Examples include robot
