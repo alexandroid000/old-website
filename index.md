@@ -10,15 +10,21 @@ Postdoc in Dr. Kirstin Petersen's [Collective Embodied Intelligence Lab](https:/
  in the Electrical and Computer Engineering Department at Cornell University.
 
 **Research Interests:** Design of algorithms and data structures for 
-minimal-yet-robust motion and feedback planning for mobile
-robots. In my Ph.D., I focused on robots that have
-structured interactions with their environment. Examples include robot vacuums that bump into
-walls to guarantee they cover a space without requiring a map; or micro-robots that swim blindly 
-until they collide with objects, enabling micro-scale construction.
+robust motion and task planning for mobile robots, with a focus on
+*minimality*. I'm interested in minimality both theoretically and practically.
+On the theory side, I'm interested in problems such as finding the
+minimum sensor information required to complete a task, or in minimum-complexity
+controllers. On the practical side, I'm interested in both making robots more
+sustainable (longer battery life, etc) and applying simple robots to solve
+data collection problems in ecology or agriculture.
 
-My approach involves making coarse characterizations of the geometry and dynamics of 
+My Ph.D. was focused on motion planning for robots that have structured
+interactions with boundaries of their environment. Examples include robot
+vacuums that bump into walls to guarantee they autonomously patrol a space
+without requiring onboard mapping; or micro-robots that swim blindly until they
+collide with objects, enabling micro-scale construction. My approach involved computing coarse characterizations of the geometry and dynamics of 
 robot trajectories. By establishing equivalence classes over the
-environment and control spaces, we can allow for nondeterminism and uncertainty
+environment and control spaces, we allow for nondeterminism and uncertainty
 at the planning stage and still compute plans that have analytical guarantees on
 their stability and long-term dynamical behavior.
 
@@ -27,7 +33,7 @@ robot, we use the intrinsic dynamics of the robot to
 engineer robust high-level behaviors such as navigating or patrolling a space,
 or even object manipulation or self-assembly.
 
-[My CV is here](images/NillesCV.pdf). You can see some of my current projects at
+[My CV is here](images/NillesCV.pdf). You can see some of my current projects on
 [my github](https://github.com/alexandroid000).
 
 ### News

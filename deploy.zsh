@@ -1,8 +1,8 @@
 git fetch --all
 git checkout master
 git pull
-stack exec myblog clean
-stack exec myblog build
+stack --allow-different-user exec myblog clean
+stack --allow-different-user exec myblog build
 
 if [ $? = 0 ]; then
 
