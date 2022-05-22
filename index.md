@@ -16,7 +16,10 @@ On the theory side, I'm interested in problems such as finding the
 minimum sensor information required to complete a task, or computing minimum-complexity
 controllers. On the practical side, I'm interested in both making robots more
 sustainable (longer battery life, etc) and applying simple robots to solve
-problems in agriculture, ecology, etc.
+problems in **agriculture and ecology with robust, persistent robot
+monitoring**. I also collaborate with practitioners in the
+"embodied" arts and sciences (dance, animal interaction, biology, etc) to make
+such robots more effective and amplify insights from these fields.
 
 My Ph.D. was focused on motion planning for robots that have structured
 interactions with boundaries of their environment. Examples include robot
@@ -26,18 +29,29 @@ collide with objects, enabling micro-scale construction. My approach involved co
 robot trajectories. By establishing equivalence classes over the
 environment and control spaces, we allow for nondeterminism and uncertainty
 at the planning stage and still compute plans that have analytical guarantees on
-their stability and long-term dynamical behavior.
-
-Instead of assuming that we have perfect control and observation of a
-robot, we use the intrinsic dynamics of the robot to
+their stability and long-term dynamical behavior. This allows us to use the intrinsic, messy dynamics of the robot to
 engineer robust high-level behaviors such as navigating or patrolling a space,
 or even object manipulation or self-assembly.
 
 [My CV is here](images/NillesCV.pdf). You can see some of my current projects on
+[Google Scholar](https://scholar.google.com/citations?user=3AvC70UAAAAJ&hl=en) and 
 [my github](https://github.com/alexandroid000).
 
 ### News
 
+
+-   **May 2022**: I will be attending ICRA 2022 in-person in Philly to co-organize workshops
+    on [math](https://idsc.ethz.ch/research-frazzoli/workshops/compositional-robotics.html) and
+    [art](https://roboticart.org/icra2022/)! Please reach out if you'd like to meet up!
+-   **Spring 2022:** I have assisted with [one paper](https://ieeexplore.ieee.org/abstract/document/9501972) and [led another](https://ieeexplore.ieee.org/abstract/document/9501972) on soft, inflatable robot
+    collectives. I am excited about the implications of this work for micro-robotics
+    as well as macro-scale robot collectives in aquatic and human-robot interaction
+    settings!
+-   **February 2021:** Our [IJJRR
+    paper](https://journals.sagepub.com/doi/full/10.1177/0278364921992788) on
+    bouncing robots was finally published. This is the reference I recommend for our
+    proofs on convergence and synthesis of periodic orbits for robots that can
+    reorient at environment boundaries.
 -   **January 2021:** Starting my postdoc! Very excited!!
 -   **October 2020:** Passed my defense and submitted my thesis!!
 -   **February 2020:** Successfully passed my prelim! Thanks to my committee 
